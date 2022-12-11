@@ -1,0 +1,14 @@
+.card{
+    width: 13rem;
+
+}
+
+@media screen and (max-width: 480px) {
+    .card{
+        width: 10rem;
+    }
+}
+li{
+    margin-left: 20px;
+    list-style-position: inside;
+}

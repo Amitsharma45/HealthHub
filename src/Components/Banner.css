@@ -1,0 +1,23 @@
+.banner{
+    background-image: url('https://thumbs.dreamstime.com/b/doctor-man-stethoscope-hospital-84232406.jpg');
+    height: 400px;
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+}
+.quote{
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 50px;
+    margin-left:100px;
+    color: black;
+    width: 300px;
+}
+@media screen and (max-width: 480px) {
+    .quote{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .banner{
+        height: 300px;
+    }
+}
