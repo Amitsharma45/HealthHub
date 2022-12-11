@@ -7,8 +7,8 @@ export default function PatientHome() {
             <h2 className='mt-2  text-center'>Patient Dashboard</h2>
             <div>
                 <ul>
-                    <li><Link to='/book-appoinment'>Book Appoinment</Link></li>
-                    <li><Link to='/view-appoinment'>View Appoinment</Link></li>
+                    <li><Link to='/book-appointment'>Book appointment</Link></li>
+                    <li><Link to='/view-appointment'>View appointment</Link></li>
                     <li><Link to='/patient-profile'> View Profile</Link></li>
                 </ul>
 

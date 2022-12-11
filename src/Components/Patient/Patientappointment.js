@@ -3,14 +3,14 @@ import './PatientHome.css'
 import Table from 'react-bootstrap/Table';
 import { Link } from 'react-router-dom'
 import { Container } from 'react-bootstrap';
-export default function PatientAppoinment() {
+export default function Patientappointment() {
     return (
         <>
             <h2 className='mt-2  text-center'>Patient Dashboard</h2>
             <div>
                 <ul>
-                    <li><Link to='/book-appoinment'>Book Appoinment</Link></li>
-                    <li > <Link to='/view-appoinment' style={{ color: 'red' }}>View Appoinment</Link></li>
+                    <li><Link to='/book-appointment'>Book appointment</Link></li>
+                    <li > <Link to='/view-appointment' style={{ color: 'red' }}>View appointment</Link></li>
                     <li ><Link to='/patient-profile'> View Profile</Link></li>
                 </ul>
             </div>
@@ -23,7 +23,7 @@ export default function PatientAppoinment() {
                             <th>#</th>
                             <th>Name</th>
                             <th>Doctor</th>
-                            <th>Appoinment Date</th>
+                            <th>appointment Date</th>
                         </tr>
                     </thead>
                     <tbody>

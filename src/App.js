@@ -12,8 +12,8 @@ import DrLogin from './Components/Doctor/DrLogin';
 import DrRegister from './Components/Doctor/DrRegister';
 import PatientHome from './Components/Patient/PatientHome';
 import PatientProfile from './Components/Patient/PatientProfile';
-import BookAppoinment from './Components/Patient/BookAppoinment';
-import PatientAppoinment from './Components/Patient/PatientAppoinment';
+import Bookappointment from './Components/Patient/Bookappointment';
+import Patientappointment from './Components/Patient/Patientappointment';
 
 function App() {
   return (
@@ -31,8 +31,8 @@ function App() {
         <Route path='/doctor-Register' element={<DrRegister />} />
         <Route path='/patient-Home' element={<PatientHome />} />
         <Route path='/patient-profile' element={<PatientProfile />} />
-        <Route path='/book-appoinment' element={<BookAppoinment />} />
-        <Route path='/view-appoinment' element={<PatientAppoinment />} />
+        <Route path='/book-appointment' element={<Bookappointment />} />
+        <Route path='/view-appointment' element={<Patientappointment />} />
         
       </Routes>
       <Footer />
