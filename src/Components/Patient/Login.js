@@ -53,7 +53,7 @@ export default function Login() {
                         </div>
                         <div className='d-flex justify-content-between'>
                             <p className="forgot-password text-right mt-2">
-                                <Link component={''} to="/patient-register" style={{ textDecoration: 'none', marginLeft: '5px' }}>Create New Account ? Sign Up</Link>
+                                <Link component={''} to="/patient-profile" style={{ textDecoration: 'none', marginLeft: '5px' }}>Create New Account ? Sign Up</Link>
                             </p>
                         </div>
 
